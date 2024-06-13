@@ -1,127 +1,205 @@
-import Img1 from '/public/image/Rectangle 3 (1).png'
-import Img2 from '/public/image/Rectangle 3 (2).png'
-import Img3 from '/public/image/Rectangle 3 (3).png'
-import Img4 from '/public/image/Rectangle 3 (4).png'
-import Img5 from '/public/image/Rectangle 3.png'
+import Img1 from "/public/image/Rectangle 3 (1).png";
+import Img2 from "/public/image/Rectangle 3 (2).png";
+import Img3 from "/public/image/Rectangle 3 (3).png";
+import Img4 from "/public/image/Rectangle 3 (4).png";
+import Img5 from "/public/image/Rectangle 3.png";
 export const newsData = [
-    {
-        id:1,
-        image:Img1,
-        title:"Visited Dapsone Sirap Coffee The Product of Robusta in Central Java",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:2,
-        image:Img2,
-        title:"Cold Brew Coffee, How to Drink Cold Coffee is More Enjoyable",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:3,
-        image:Img3,
-        title:"Meet Coffee Tonic, the Sensation of Drinking Coffee-Flavored Soda",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:4,
-        image:Img4,
-        title:"Workshop Coffee Sharing Seassion",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:5,
-        image:Img5,
-        title:"Workshop Coffee Brewing",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:6,
-        image:Img1,
-        title:"Visited Dapsone Sirap Coffee The Product of Robusta in Central Java",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:7,
-        image:Img2,
-        title:"Cold Brew Coffee, How to Drink Cold Coffee is More Enjoyable",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:8,
-        image:Img3,
-        title:"Meet Coffee Tonic, the Sensation of Drinking Coffee-Flavored Soda",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:9,
-        image:Img4,
-        title:"Workshop Coffee Sharing Seassion",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:10,
-        image:Img5,
-        title:"Workshop Coffee Brewing",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:11,
-        image:Img1,
-        title:"Visited Dapsone Sirap Coffee The Product of Robusta in Central Java",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:12,
-        image:Img2,
-        title:"Cold Brew Coffee, How to Drink Cold Coffee is More Enjoyable",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:13,
-        image:Img3,
-        title:"Meet Coffee Tonic, the Sensation of Drinking Coffee-Flavored Soda",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:14,
-        image:Img4,
-        title:"Workshop Coffee Sharing Seassion",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-    {
-        id:15,
-        image:Img5,
-        title:"Workshop Coffee Brewing",
-        time: "4 Min",
-        date:"August 19,2024"
-
-    },
-]
+  {
+    id: 1,
+    image: Img1,
+    title:
+      "Visited Dapsone Sirap Coffee The Product of Robusta in Central Java",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 2,
+    image: Img2,
+    title: "Cold Brew Coffee, How to Drink Cold Coffee is More Enjoyable",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 3,
+    image: Img3,
+    title: "Meet Coffee Tonic, the Sensation of Drinking Coffee-Flavored Soda",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 4,
+    image: Img4,
+    title: "Workshop Coffee Sharing Seassion",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 5,
+    image: Img5,
+    title: "Workshop Coffee Brewing",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 6,
+    image: Img1,
+    title:
+      "Visited Dapsone Sirap Coffee The Product of Robusta in Central Java",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 7,
+    image: Img2,
+    title: "Cold Brew Coffee, How to Drink Cold Coffee is More Enjoyable",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 8,
+    image: Img3,
+    title: "Meet Coffee Tonic, the Sensation of Drinking Coffee-Flavored Soda",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 9,
+    image: Img4,
+    title: "Workshop Coffee Sharing Seassion",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 10,
+    image: Img5,
+    title: "Workshop Coffee Brewing",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 11,
+    image: Img1,
+    title:
+      "Visited Dapsone Sirap Coffee The Product of Robusta in Central Java",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 12,
+    image: Img2,
+    title: "Cold Brew Coffee, How to Drink Cold Coffee is More Enjoyable",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 13,
+    image: Img3,
+    title: "Meet Coffee Tonic, the Sensation of Drinking Coffee-Flavored Soda",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 14,
+    image: Img4,
+    title: "Workshop Coffee Sharing Seassion",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+  {
+    id: 15,
+    image: Img5,
+    title: "Workshop Coffee Brewing",
+    time: "4 Min",
+    date: "August 19,2024",
+    dis: "The moment you step into Coffee Shop Mews, you're transported to a different world. The cozy, intimate setting with its exposed brick walls, vintage wooden furniture, and eclectic mix of artwork gives the place a bohemian charm. Soft jazz music plays in the background, enhancing the relaxed vibe, making it the perfect spot to unwind with a good book or catch up with friends.",
+    dis1: "One of the standout features of Coffee Shop Mews is its delightful courtyard. Tucked away behind the main seating area, this secluded outdoor space is adorned with fairy lights and potted plants, creating a serene oasis in the middle of the city. It's the perfect place to enjoy a sunny morning or a cool evening with your favorite brew.",
+    dis2: "At Coffee Shop Mews, coffee is more than just a beverage—it's a craft. The baristas here are true artisans, taking immense pride in every cup they serve. Whether you're a fan of a robust espresso or a creamy latte, you'll find that each drink is meticulously prepared to perfection.",
+    dis3: "The shop sources its beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices. Their signature blends, such as the rich and chocolatey' Midnight Mews' or the bright and fruity 'Sunrise Alley,' offer unique flavor profiles that keep customers coming back for more.",
+    dis4: "For those looking to try something different, the menu features a range of artisanal coffee creations. From lavender-infused lattes to honey cinnamon cappuccinos, there's always something new and exciting to tantalize your taste buds.",
+    dis5: "While coffee is the star of the show, Coffee Shop Mews offers an array of delicious treats and light bites to complement your drink. Their pastries, baked fresh daily, are a must-try. From flaky croissants to decadent brownies, there's something to satisfy every sweet tooth.",
+  },
+];

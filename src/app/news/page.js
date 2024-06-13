@@ -5,20 +5,20 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const News = () => {
-    const [data, setData] = useState([]);
+    // const [data, setData] = useState([]);
     const [visibleData, setVisibleData] = useState([]);
     const [itemsToShow, setItemsToShow] = useState(5);
 
     useEffect(()=>{
         setVisibleData(newsData.slice(0, itemsToShow));
-        setData(newsData);
+        // setData(newsData);
     },[])
 
     
     const loadMore = () => {
         const newItemsToShow = itemsToShow + 5;
         setItemsToShow(newItemsToShow);
-        setVisibleData(data.slice(0, newItemsToShow));
+        setVisibleData(newsData.slice(0, newItemsToShow));
       };
   return (
     <div className="w-[1440px] mx-auto">
@@ -70,7 +70,7 @@ const News = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        {visibleData.length < data.length && (
+        {visibleData.length < newsData?.length && (
         <button className="text-[#986B24] border-[#986B24] border w-36  h-[52px] text-xl  mt-[30px] mb-5" onClick={loadMore}>Load More</button>
       )}
       </div>
