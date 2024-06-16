@@ -1,79 +1,34 @@
-// import React, { useState, useEffect } from 'react';
+"use client";
+import { useEffect, useState } from "react";
+const Posts = () => {
+const [items, setItems] = useState([]);
+const [itemsToShow, setItemsToShow] = useState(5);
 
-// const LoadMoreComponent = () => {
-//   // Assume fetchedData is the data you fetched and want to display.
-//   const fetchedData = [
-//     /* Your data here */
-//   ];
+useEffect(() => {
+  fetch("https://jsonplaceholder.typicode.com/posts")
+    .then((res) => res.json())
+    .then((data) => setItems(data.slice(0, itemsToShow)));
+}, [itemsToShow]); 
 
-//   // State to keep track of full data and visible data
-//   const [data, setData] = useState([]);
-//   const [visibleData, setVisibleData] = useState([]);
-//   const [itemsToShow, setItemsToShow] = useState(5); // Number of items to show initially
+const loadMore = () => {
+  const newItemsToShow = itemsToShow + 5;
+  setItemsToShow(newItemsToShow);
+};
+  return (
+    <div>
+      <div className="grid grid-cols-4 gap-5">
+        {items.map((item) => (
+          <div className="border p-5" key={item.id}>
+            <h1>{item?.title}</h1>
+            <h1>{item?.body}</h1>
+          </div>
+        ))}
+      </div>
+      <div className="flex justify-center mb-5">
+        <button  onClick={loadMore} className="bg-orange-500 px-5 py-2">See More</button>
+      </div>
+    </div>
+  );
+};
 
-//   // Load data when component mounts
-//   useEffect(() => {
-//     setData(fetchedData);
-//     setVisibleData(fetchedData.slice(0, itemsToShow));
-//   }, []);
-
-//   // Load more items when "Load More" button is clicked
-//   const loadMore = () => {
-//     const newItemsToShow = itemsToShow + 5;
-//     setItemsToShow(newItemsToShow);
-//     setVisibleData(data.slice(0, newItemsToShow));
-//   };
-
-//   return (
-//     <div>
-//       <ul>
-//         {visibleData.map((item, index) => (
-//           <li key={index}>{item}</li>
-//         ))}
-//       </ul>
-//       {visibleData.length < data.length && (
-//         <button onClick={loadMore}>Load More</button>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default LoadMoreComponent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default Posts;
